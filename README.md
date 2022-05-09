@@ -41,10 +41,10 @@
 
 
 ## Resources
-*  [Unix shell](https://alx-intranet.hbtn.io/rltoken/f0YU9TAhniMXWlSXtb64Yw)
-* [Thompson shell](https://alx-intranet.hbtn.io/rltoken/7LJOp2qP7qHUcsOK2-F3qA)
-* [Ken Thompson](https://alx-intranet.hbtn.io/rltoken/wTSu31ZP1f7fFTJFgRQC7w)
-* [sh man](https://www.commandlinux.com/man-page/man1/sh.1.html)
+*  [Unix shell] (https://alx-intranet.hbtn.io/rltoken/f0YU9TAhniMXWlSXtb64Yw)
+* [Thompson shell] (https://alx-intranet.hbtn.io/rltoken/7LJOp2qP7qHUcsOK2-F3qA)
+* [Ken Thompson] (https://alx-intranet.hbtn.io/rltoken/wTSu31ZP1f7fFTJFgRQC7w)
+* [sh man] (https://www.commandlinux.com/man-page/man1/sh.1.html)
 
 ## Operating System 
 [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
@@ -57,7 +57,7 @@
 
 1. [Yohanes Getinet Nuriye](https://github.com/YohanesGetinet1)
 
-2. [Brenda Bonde](https://jepbonde@gmail.com)
+2. [Brenda Bonde] (https://jepbonde@gmail.com)
 
 
 </h3>
