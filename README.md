@@ -57,7 +57,7 @@
 
 1. [Yohanes Getinet Nuriye](https://github.com/YohanesGetinet1)
 
-2. [Brenda Bonde] (https://jepbonde@gmail.com)
+2. [Brenda Bonde](https://jepbonde@gmail.com)
 
 
 </h3>
