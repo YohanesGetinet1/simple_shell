@@ -1,67 +1,38 @@
 #include "main.h"
 
 /**
- * ptrcounter - function will count number of pointers fed from getline
- * @buff: represents pointer from getline to be evaluated
- * Return: function will return count of pointers
+ * tokenize - tokenizes a buffer with a delimiter
+ * @buffer: buffer to tokenize
+ * @delimiter: delimiter to tokenize along
+ *
+ * Return: pointer to an array of pointers to the tokens
  */
-
-int ptrcounter(char *buff)
+char **tokenize(char *buffer, char *delimiter)
 {
-	int index, i, count;
-	char *separator;
+	char **tokens = NULL;
+	size_t i = 0, mcount = 10;
 
-	count = 2;
-	separator = ": ";
-	index = 0;
-	while (buff[index] != '\0')
+	if (buffer == NULL)
+		return (NULL);
+	tokens = malloc(sizeof(char *) * mcount);
+	if (tokens == NULL)
 	{
-		i = 0;
-		while (separator[i] != '\0')
-		{
-			if (buff[index] == separator[i])
-				count++;
-			i++;
-		}
-		index++;
-	}
-	return (count);
-}
-
-
-/**
- * tokenfxn - function will tokenize line
- * @buff: represents pointer to buffer holding line
- * @count: represents total count of pointers
- * Return: function returns pointer to array
- */
-
-
-char **tokenfxn(char *buff, int count)
-{
-	char **commands;
-	size_t index;
-	char *token;
-
-	commands = malloc(sizeof(char *) * (count + 2));
-	if (commands == NULL)
-	{
-		free(buff);
+		perror("Fatal Error");
 		return (NULL);
 	}
-	token = strtok(buff, DELIM);
-	commands[0] = token;
-	index = 1;
-	while (token != NULL)
+	while ((tokens[i] = new_strtok(buffer, delimiter)) != NULL)
 	{
-		if (commands == NULL)
+		i++;
+		if (i == mcount)
 		{
-			free(buff);
-			return (NULL);
+			tokens = _realloc(tokens, &mcount);
+			if (tokens == NULL)
+			{
+				perror("Fatal Error");
+				return (NULL);
+			}
 		}
-		token = strtok(NULL, DELIM);
-		commands[index] = token;
-		index++;
+		buffer = NULL;
 	}
-	return (commands);
+	return (tokens);
 }
