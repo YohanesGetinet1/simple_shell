@@ -3,8 +3,8 @@
 
 /*
  * File_name: shell.h
- * Author: Diana Beki
- *       Alvin Imbuka
+ * Author: Yohanes Getinet1
+ *       Brenda Bonde
  */
 
 #include <fcntl.h>
