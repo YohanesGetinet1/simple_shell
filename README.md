@@ -4,6 +4,8 @@
 ------------------
 
 ![Simple Shell](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/235/shell.jpeg)
+## Test
+![Simple Shell test](https://github.com/YohanesGetinet1/simple_shell/blob/main/2022-05-20%2009-50-49.gif)
 
 ## Learning Objectives
 
